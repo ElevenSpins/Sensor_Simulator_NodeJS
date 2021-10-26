@@ -6,9 +6,12 @@
 */
 
 /*
-
-
- */
+*----------------------------------------------------*
+|                   Build by Marian                  |
+|                       2021                         |
+|              SENSOR SIMULATOR OVER MQTT            |
+*----------------------------------------------------*
+*/
 
 
 const moment = require('moment')
@@ -37,11 +40,6 @@ const connectoptions = {
 
 
 var client = mqtt.connect("mqtt://test.mosquitto.org", connectoptions)
-//const client = mqtt.connect('mqtt://localhost', connectoptions)
-
-//FQDN: zwisstex-t01.customer.it.local
-//IP: 10.162.7.10
-//const client = mqtt.connect('mqtt://zwisstex-t01.customer.it.local', connectoptions)
 
 const homeTopic = 'your/crazy/'
 const anlage = 'topic/'
