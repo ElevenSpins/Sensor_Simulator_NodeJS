@@ -5,6 +5,7 @@
   "main": "simulator.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node simulator.js"
   },
   "author": "Marian Mutschler @ElevenSpins",
   "license": "ISC",
